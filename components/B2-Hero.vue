@@ -68,6 +68,12 @@
 					
 				</ul>
 
+                <button
+							type="button"
+							class="block sm:hidden mr-2 lg:mr-0 rounded-lg border border-gray-300 bg-white px-5 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+							Kontakt
+						</button>
+
 				<!-- <ul class="my-8 space-y-4 text-lg text-left text-gray-500 dark:text-gray-400">
     <li class="flex items-center space-x-3">
 
