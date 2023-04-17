@@ -3,7 +3,7 @@
     <B1-Navbar />
 		<B2-Hero />
 		<!-- Start block -->
-		<section class="bg-white dark:bg-gray-900">
+		<!-- <section class="bg-white dark:bg-gray-900">
 			<div class="mx-auto max-w-screen-xl px-4 pb-8 lg:pb-16">
 				<div
 					class="grid grid-cols-2 gap-8 text-gray-500 dark:text-gray-400 sm:grid-cols-3 sm:gap-12 lg:grid-cols-6">
@@ -179,7 +179,7 @@
 					</a>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End block -->
 		<!-- Start block -->
 		<section class="bg-gray-50 dark:bg-gray-800">

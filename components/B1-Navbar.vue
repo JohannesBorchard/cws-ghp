@@ -12,7 +12,7 @@
 						<button
 							id="dropdownNavbarLink"
 							data-dropdown-toggle="dropdownNavbar"
-							class="flex w-full items-center justify-between rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent">
+							class="hidden sm:flex flex w-full items-center justify-between rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent">
 							CH
 							<svg
 								class="ml-1 h-5 w-5"
@@ -38,7 +38,7 @@
 					> -->
 						<button
 							type="button"
-							class="mr-2 lg:mr-0 rounded-lg border border-gray-300 bg-white px-5 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+							class="hidden sm:block mr-2 lg:mr-0 rounded-lg border border-gray-300 bg-white px-5 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700">
 							Kontakt
 						</button>
 
