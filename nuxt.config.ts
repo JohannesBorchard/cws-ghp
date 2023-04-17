@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	css: ["/.assets/css/main.css"],
+	tailwindcss: {
+		cssPath: "~/assets/css/input.css",
+	},
 	modules: ["@nuxtjs/tailwindcss"],
 });

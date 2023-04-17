@@ -1,6 +1,7 @@
 <template>
 	<div>
-    <B1-Navbar />
+		<B1-Navbar />
+		<!-- <B1ANachbar /> -->
 		<B2-Hero />
 		<!-- Start block -->
 		<!-- <section class="bg-white dark:bg-gray-900">
@@ -182,7 +183,8 @@
 		</section> -->
 		<!-- End block -->
 		<!-- Start block -->
-		<section class="bg-gray-50 dark:bg-gray-800">
+		<B3Services />
+		<section class="bg-gray-40 dark:bg-gray-900">
 			<div
 				class="mx-auto max-w-screen-xl space-y-12 px-4 py-8 lg:space-y-20 lg:px-6 lg:py-24">
 				<!-- Row -->
@@ -1323,8 +1325,14 @@
 	</div>
 </template>
 
-<script>
-	export default {};
+<script setup>
+	import { onMounted } from "vue";
+	import { initFlowbite } from "flowbite";
+
+	// initialize components based on data attribute selectors
+	onMounted(() => {
+		initFlowbite();
+	});
 </script>
 
 <style scoped></style>

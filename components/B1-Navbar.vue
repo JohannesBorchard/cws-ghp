@@ -9,10 +9,28 @@
 						>Clean Web Solutions</span
 					>
 					<span class="ml-6">
+						<!-- <button
+							id="dropdownNavbarLink"
+							data-dropdown-toggle="dropdownNavbar"
+							class="flex w-full items-center justify-between rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent">
+							CH
+							<svg
+								class="ml-1 h-5 w-5"
+								aria-hidden="true"
+								fill="currentColor"
+								viewBox="0 0 20 20"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									fill-rule="evenodd"
+									d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+									clip-rule="evenodd"></path>
+							</svg>
+						</button> -->
+
 						<button
 							id="dropdownNavbarLink"
 							data-dropdown-toggle="dropdownNavbar"
-							class=" flex w-full items-center justify-between rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent">
+							class="flex w-full items-center justify-between rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:text-white md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
 							CH
 							<svg
 								class="ml-1 h-5 w-5"
@@ -26,6 +44,30 @@
 									clip-rule="evenodd"></path>
 							</svg>
 						</button>
+						<!-- Dropdown menu -->
+						<div
+							id="dropdownNavbar"
+							class="z-10 hidden rounded-lg bg-white font-normal shadow dark:bg-gray-700">
+							<ul
+								class="py-2 flex text-sm text-gray-700 dark:text-gray-400"
+								aria-labelledby="dropdownLargeButton">
+								<li>
+									<a
+										href="#"
+										class="block text-blue-400 px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+										>CH</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+										>DE</a
+									>
+								</li>
+								
+							</ul>
+						</div>
 					</span>
 				</a>
 				<div class="flex gap-6">
@@ -38,7 +80,7 @@
 					> -->
 						<button
 							type="button"
-							class="hidden sm:block mr-2 lg:mr-0 rounded-lg border border-gray-300 bg-white px-5 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+							class="mr-2 hidden rounded-lg border border-gray-300 bg-white px-5 py-2 text-base font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700 sm:block lg:mr-0">
 							Kontakt
 						</button>
 
@@ -112,7 +154,6 @@
 									>Ablauf</a
 								>
 							</li>
-							
 						</ul>
 					</div>
 				</div>
