@@ -13,7 +13,7 @@
 				</p>
 			</div>
 
-			<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-4 md:gap-2 md:space-y-0 px-16">
+			<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-4 md:gap-2 md:space-y-0 ">
 				<div>
 					<svg
 						class="mb-2 h-10 w-10 text-blue-600 dark:text-blue-500 md:h-12 md:w-12"
